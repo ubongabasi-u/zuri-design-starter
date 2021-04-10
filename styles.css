@@ -183,7 +183,7 @@ div.business-cards {
 div.card1 {
     padding: 10px 25px;
     width: 300px;
-    height: 250px;
+    height: 270px;
     background: #FCFBFD;
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
 }
@@ -194,7 +194,8 @@ div.card1 {
     }
 
     div.business-cards {
-        display: block;
+        display: flex;
+        flex-direction: column;
         
     }
 
@@ -203,6 +204,8 @@ div.card1 {
     }
 
     div.card1 {
+        width: 400px;
+        height: 300px;
         margin-bottom: 20px;
     }
 }
